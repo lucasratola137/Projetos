@@ -2,8 +2,6 @@
 
 
 
-
-
 #agregação média apenas para validação
 SELECT a.cluster,avg(a.renda_anual) as media_renda ,avg(a.pontuacao_gasto) as media_gasto
 from projetocluster.clientes_segmentados a
