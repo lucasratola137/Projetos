@@ -24,7 +24,7 @@
 <p>Abaixo, a versão final do dashboard, que consolida todos os insights gerados neste projeto.</p>
 <img width="500" height="500" src= "https://i.ibb.co/ZpYFJz0X/clusterizacao.png" />
 <br>
-<br><a href="https://lookerstudio.google.com/u/0/reporting/8c8d4297-fb57-450a-b883-61889dea33d1/page/p_he0q3qw2ld">Acessar dashboard → </a> <br />
+<br><a href="https://lookerstudio.google.com/u/0/reporting/8c8d4297-fb57-450a-b883-61889dea33d1/page/p_he0q3qw2ld">Acessar Dashboard → </a> <br />
 </div>
 
 ## 📖 Sobre o Projeto
@@ -80,5 +80,16 @@ Com os dados padronizados, foi aplicado o algoritmo K-Means, definindo k = 3 clu
 Cada cliente passou a receber um identificador numérico de cluster (0, 1 ou 2).
 O botão abaixo te redicionará ao código em Python.
 <div align="center">
-<br><a href="https://github.com/lucasratola137/Clusterizacao_Python/blob/main/Clusterizacao.py">Acessar o código no GitHub → </a> <br />
+<br><a href="https://github.com/lucasratola137/Clusterizacao_Python/blob/main/Clusterizacao.py">Acessar Código no GitHub → </a> <br />
 </div>
+
+### 5. Exportação e Análises no Google Cloud
+Após a segmentação, o dataset foi salvo em um novo arquivo. Esse arquivo foi enviado para o Google Cloud Platform, onde realizei análises adicionais em SQL, utilizando:
+- Funções de agregação (AVG, COUNT, etc.).
+- Queries com CASE para transformar os clusters numéricos em categorias de negócio (esta query foi a utilizada como fonte de dados do Dashboard).
+- Queries com a Window Function rank() apenas para demonstração dos clientes com maiores rendas, idade e pontuações.
+<div align="center">
+<p>Abaixo, a tabela criada no Google Cloud com a query utilizada para conexão com o Looker Studio.</p>
+<img width="500" height="500" src= "https://i.ibb.co/MkjVY5wQ/GCP.png" />
+</div>
+ 
