@@ -84,12 +84,19 @@ O botão abaixo te redicionará ao código em Python.
 </div>
 
 ### 5. Exportação e Análises no Google Cloud
-Após a segmentação, o dataset foi salvo em um novo arquivo. Esse arquivo foi enviado para o Google Cloud Platform, onde realizei análises adicionais em SQL, utilizando:
+Após a segmentação, o dataset foi salvo em um novo arquivo. Esse arquivo foi enviado para o Google Cloud Platform, onde realizei análises adicionais e bem simples em SQL, utilizando:
 - Funções de agregação (AVG, COUNT, etc.).
-- Queries com CASE para transformar os clusters numéricos em categorias de negócio (esta query foi a utilizada como fonte de dados do Dashboard).
-- Queries com a Window Function rank() apenas para demonstração dos clientes com maiores rendas, idade e pontuações.
+- Query com CASE para transformar os clusters numéricos em categorias de negócio (esta query foi a utilizada como fonte de dados do Dashboard).
 <div align="center">
 <p>Abaixo, a tabela criada no Google Cloud com a query utilizada para conexão com o Looker Studio.</p>
 <img width="500" height="500" src= "https://i.ibb.co/MkjVY5wQ/GCP.png" />
+  
 </div>
- 
+ Essa etapa permitiu validar os clusters sob a ótica do negócio e gerar insights para estratégias de venda por perfil de cliente.
+ O botão abaixo te redicionará aos códigos em SQL.
+<div align="center">
+<br><a href="https://github.com/lucasratola137/Clusterizacao_Python/blob/main/Query.sql">Acessar Código no GitHub → </a> <br />
+</div>
+
+### 6. Conexão Fonte de Dados e Criação do Dashboard
+Por fim, nesta etapa foi realizada a conexão entre o Google Cloud e Looker Studio para criação do Dashboard com os gráficos para análise do usuário final.
