@@ -100,4 +100,5 @@ Após a segmentação, o dataset foi salvo em um novo arquivo. Esse arquivo foi 
 
 ### 6. Conexão Fonte de Dados e Criação do Dashboard
 Por fim, nesta etapa foi realizada a conexão entre o Google Cloud e Looker Studio para criação do Dashboard com os gráficos para análise do usuário final.
+
 Observação: Optei pelo Looker Studio pela facilidade em compartilhar, porém a conexão entre Power BI e Google Cloud é bem simples de realizar também.
