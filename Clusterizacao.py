@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 
 #define uma constante com o caminho do arquivo de dados
-file_path = 'CASE 00 - PROJETO CLUSTERIZACAO DE CLIENTES/dados_clientes.csv'
+file_path = 'dados_clientes.csv'
 #carrega o dataset
 data_set = pd.read_csv(file_path)
 
@@ -30,4 +30,4 @@ data_set['cluster'] = kmeans.labels_
 #mostra as 10 primeiras linhas do dataset com os clusters atribuídos
 print(data_set.head(10).to_string(index=False))
 #salva o novo arquivo com os segmentos
-data_set.to_csv('CASE 00 - PROJETO CLUSTERIZACAO DE CLIENTES/dados_clientes_segmentados.csv', index=False)
+data_set.to_csv('dados_clientes_segmentados.csv', index=False)
