@@ -22,7 +22,7 @@
 
 <div align="center">
 <p>Abaixo, a versão final do dashboard, que consolida todos os insights gerados neste projeto.</p>
-<img width="500" height="500" src= "https://i.ibb.co/ZpYFJz0X/clusterizacao.png" />
+<img width="500" height="500" src= "https://iili.io/fid0r79.png" />
 <br>
 <br><a href="https://lookerstudio.google.com/u/0/reporting/8c8d4297-fb57-450a-b883-61889dea33d1/page/p_he0q3qw2ld">Acessar Dashboard → </a> <br />
 </div>
